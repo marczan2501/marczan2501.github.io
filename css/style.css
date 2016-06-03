@@ -30,3 +30,4 @@ tr:nth-child(even) {background-color: #f2f2f2}
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 .w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
 .w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
+.w3-center{text-align:center!important}
