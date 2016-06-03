@@ -58,6 +58,6 @@ tr:nth-child(even) {
 	color: #fff!important
 }
 
-.center {
-	text-align: center!important
+.left {
+	text-align: left!important
 }
