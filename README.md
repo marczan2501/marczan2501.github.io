@@ -1,3 +1,2 @@
-# noplisu.github.io
+# marczan2501.github.io
 
-Simple personal website containing a CV
