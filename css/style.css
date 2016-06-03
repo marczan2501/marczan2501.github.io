@@ -25,3 +25,77 @@ tr:nth-child(even) {background-color: #f2f2f2}
 	margin: 0 auto;
 	padding: 0;
 }
+/*PROGRESS BAR */
+.progress-wrap {
+  padding-top: 42px;
+}
+
+.progress {
+  height: 10px;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #f0f0f0;
+}
+
+.progress-bar {
+  transition: none;
+  background-color: #28282E;
+}
+
+.bar {
+  position: relative;
+}
+
+.bar h6 {
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+}
+
+.bar .timer {
+  display: block;
+  width: 41px;
+  position: absolute;
+  right: 0;
+  top: -2px;
+  padding: 2px 5px;
+  margin-bottom: 2px;
+  text-align: left;
+  color: #28282E;
+}
+
+.bar .timer:after {
+  content: ' %';
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 3px;
+}
+
+.counter-content {
+  border-top: 1px solid #404049;
+}
+
+.counter-content .counter {
+  border-right: 1px solid #404049;
+}
+
+.counter-content .counter:last-child {
+  border: 0;
+}
+
+.counter-content i {
+  color: #F26F70;
+}
+
+.counter-content .timer {
+  color: #F26F70;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.counter-content .label {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 10px;
+  display: block;
+}
