@@ -45,19 +45,20 @@ tr:nth-child(even) {
 }
 
 .blue, .hover-blue:hover {
-	color: #fff!important;
-	background-color: #2196F3!important
+	color: #fff;
+	background-color: #2196F3
 }
 
 .light-blue, .hover-light-blue:hover {
-	color: #000!important;
-	background-color: #87CEEB!important
+	color: #000;
+	background-color: #87CEEB
 }
 
 .text-white, .hover-text-white:hover {
-	color: #fff!important
+	color: #fff
 }
 
 .left {
-	text-align: left!important
+	text-align: left;
+	margin: 10 auto
 }
