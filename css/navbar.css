@@ -29,8 +29,12 @@
     background-color: #4CAF50;
 }
 
+.navbar .drukuj {
+    background-color: #ED2D35;
+}
+
 .navbar .pull-right {
-	float: right;
+    float: right;
 }
 
 .after-navbar {
