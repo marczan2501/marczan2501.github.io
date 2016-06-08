@@ -1,25 +1,29 @@
-@media print {    
+@media print {
     .print-hidden {
         display: none !important;
     }
 }
 
 .cv-image {
-	width: 220px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
 }
 
 .left-column {
-	float: left;
-	width: 220px;
-	margin-right: 20px;
+    float: left;
+    width: 220px;
+    margin-right: 20px;
 }
-
 
 .right-column {
-	margin-left: 240px;
+    margin-left: 240px;
 }
-footer{
-	text-align: center;
-	color: white;
-	background-color: #111;
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+    padding-left: 200px;
+    padding-right: 200px;
 }
