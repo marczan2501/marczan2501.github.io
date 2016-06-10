@@ -1,3 +1,30 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+@media screen and (max-width: 25em) {
+    .codrops-icon span {
+        display: none;
+    }
+}
+
 .grid {
     padding: 20px 20px 100px 20px;
     max-width: 1300px;
