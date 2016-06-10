@@ -39,22 +39,22 @@
     margin: 0;
     padding: 20px;
     text-align: left;
-    position: relative;
+    /* position: relative;*/
 }
 
 .grid figure {
     margin: 0;
-    position: relative;
+    /*position: relative;*/
 }
 
 .grid figure img {
     max-width: 100%;
     display: block;
-    position: relative;
+    /* position: relative;*/
 }
 
 .grid figcaption {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
     padding: 20px;
@@ -130,7 +130,7 @@
 }
 
 .cs-style-3 figcaption a {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 20px;
     right: 20px;
 }
