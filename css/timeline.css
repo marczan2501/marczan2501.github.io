@@ -12,25 +12,25 @@ section#timeline:before {
     background: #404039;
 }
 
-section#timeline div.artykul {
+section#timeline article {
     margin: 0 0 20px 0;
     position: relative;
 }
 
-section#timeline div.artykul:after {
+section#timeline article:after {
     content: '';
     display: block;
     clear: both;
 }
 
-section#timeline div.artykul div.inner {
+section#timeline article div.inner {
     width: 40%;
     float: left;
     margin: 5px 0 0 0;
     border-radius: 6px;
 }
 
-section#timeline div.artykul div.inner span.date {
+section#timeline article div.inner span.date {
     display: block;
     width: 60px;
     height: 50px;
@@ -48,16 +48,16 @@ section#timeline div.artykul div.inner span.date {
     box-shadow: 0 0 0 7px #7F7373;
 }
 
-section#timeline div.artykul div.inner span.date span {
+section#timeline article div.inner span.date span {
     display: block;
     text-align: center;
 }
 
-section#timeline div.artykul div.inner span.date span.year {
+section#timeline article div.inner span.date span.year {
     font-size: 13px;
 }
 
-section#timeline div.artykul div.inner h2 {
+section#timeline article div.inner h2 {
     padding: 15px;
     margin: 0;
     color: #fff;
@@ -68,7 +68,7 @@ section#timeline div.artykul div.inner h2 {
     position: relative;
 }
 
-section#timeline div.artykul div.inner h2:after {
+section#timeline article div.inner h2:after {
     content: '';
     position: absolute;
     right: -5px;
@@ -77,34 +77,34 @@ section#timeline div.artykul div.inner h2:after {
     -webkit-transform: rotate(-45deg);
 }
 
-section#timeline div.artykul div.inner p {
+section#timeline article div.inner p {
     padding: 15px;
     margin: 0;
     background: #fff;
     color: #333;
 }
 
-section#timeline div.artykul div.inner {
+section#timeline article div.inner {
     float: left;
 }
 
-section#timeline div.artykul:nth-child() div.inner h2:after {
+section#timeline article:nth-child() div.inner h2:after {
     left: -5px;
 }
 
-section#timeline div.artykul:nth-child(2n+1) div.inner h2 {
+section#timeline article:nth-child(2n+1) div.inner h2 {
     background: #ED2D35;
 }
 
-section#timeline div.artykul:nth-child(2n+1) div.inner h2:after {
+section#timeline article:nth-child(2n+1) div.inner h2:after {
     background: #ED2D35;
 }
 
-section#timeline div.artykul:nth-child(2n) div.inner h2 {
+section#timeline article:nth-child(2n) div.inner h2 {
     background: #2ecc71;
 }
 
-section#timeline div.artykul:nth-child(2n) div.inner h2:after {
+section#timeline article:nth-child(2n) div.inner h2:after {
     background: #2ecc71;
 }
 
