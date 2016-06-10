@@ -144,3 +144,8 @@
         min-width: 300px;
     }
 }
+
+a:link {
+    text-decoration: none!important;
+    cursor: pointer;
+}
