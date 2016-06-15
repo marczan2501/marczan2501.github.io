@@ -63,14 +63,6 @@ td {
     outline: none !important;
 }
 
-html {
-    background: #fff;
-}
-
-body {
-    font-family: 'Roboto', 'sans-serif';
-}
-
 .headerLine {
     position: relative;
     width: 100%;
@@ -99,32 +91,8 @@ body {
     border-left: 3000px solid transparent;
 }
 
-.logo {
-    margin-top: 60px;
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
-}
-
 .logo span {
     color: #1fcdff;
-}
-
-.logo p {
-    letter-spacing: 0.5px;
-    margin-top: -10px;
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 12px;
-    font-weight: 300;
-    text-transform: lowercase;
-}
-
-.logo a {
-    cursor: pointer;
-    color: #fff;
-    text-decoration: none;
 }
 
 #menu a:active {
